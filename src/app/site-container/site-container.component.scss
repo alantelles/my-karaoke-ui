@@ -1,0 +1,36 @@
+.site-container {
+  width: 100vw; height: 100vh;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.site-sidenav-content {
+  display: flex;
+}
+
+#menu-toggle {
+  color: #fff;
+  position: fixed;
+  z-index: 1000;
+}
+
+.site-sidenav {
+  width: 300px;
+  padding: 20px;
+  background-color: rgb(14, 97, 70);
+  color: #fff;
+}
+  
+.menu-content {
+  margin-top: 20px;
+}
+.player {
+  display: flex;
+  background-color: aqua;
+  width: 100%; height: 100vh;
+}
+.iframe-player {
+  flex-grow: 1; 
+  border: none; 
+  margin: 0; 
+  padding: 0;
+}

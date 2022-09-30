@@ -1,0 +1,22 @@
+<button mat-icon-button id="menu-toggle" (click)="drawer.toggle()" ><mat-icon>menu</mat-icon></button>
+<mat-drawer-container class="site-container" autosize>
+  <mat-drawer #drawer class="site-sidenav" mode="side">
+    <div class="menu-content">
+      <h3>Seleciona sua música</h3>
+    </div>
+  </mat-drawer>
+
+  <div class="site-sidenav-content">
+    <div class="player">
+      <!-- <iframe 
+        class="iframe-player"
+        src="https://www.youtube.com/embed/uddlS2OiMys?controls=0" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe> -->
+    </div>
+  </div>
+
+</mat-drawer-container>
+  
